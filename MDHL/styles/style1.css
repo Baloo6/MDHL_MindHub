@@ -1,0 +1,8 @@
+.left-image {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-image #logo {
+    margin-right: 10px; /* Puedes ajustar este margen según tus preferencias */
+}
