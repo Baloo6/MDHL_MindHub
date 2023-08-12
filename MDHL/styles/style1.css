@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    margin-left: 3px;
 }
 
 body {
@@ -23,11 +25,10 @@ body {
 .container1 h1 {
     position: absolute;
     top: 0;
-    left: 18%;
-    transform: translate(-50%, -50%);
+    left: 3px;
     color: black;
     font-size: 40px;
-    text-align:left;
+    text-align: left;
     text-shadow: 2px 2px 4px rgba(0, 0, 0)
 }
 
@@ -36,6 +37,25 @@ body {
     position: center;
     background: black;
     color: white;
-    left: 20%;
+    border: 1px solid black;
+    text-align: center;
     
+}
+
+article{
+    margin-bottom: 10px;
+}
+
+#email>p{
+    display: inline;
+}
+#email1{
+    text-decoration: underline black;
+    color: rgb(119, 189, 212)
+}
+
+.nav1>a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }

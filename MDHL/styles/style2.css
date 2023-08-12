@@ -46,4 +46,10 @@ article{
     margin-bottom: 10px;
 
 }
-
+#email>p{
+    display: inline;
+}
+#email1{
+    text-decoration: underline black;
+    color: rgb(119, 189, 212)
+}
