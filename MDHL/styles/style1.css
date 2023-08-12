@@ -59,3 +59,12 @@ article{
     flex-direction: column;
     margin-bottom: 20px;
 }
+
+article>p{
+    text-indent: 20px;
+}
+
+#href1{
+    text-decoration: none;
+    color: black;
+}
