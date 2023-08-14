@@ -2,44 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    margin-left: 3px;
+    margin-left: 0vw;
 }
-
-body {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-  }
   
 .container1{
-    position: relative;
+    display: inline-block;
+    margin-left: 10vw;
+    font-size: 1vw;
+    
 }
 
 .container1 img{
-    top: 0%;
-    width: 700px;
-    height: 300px;
+    
+    width: 70vw;
+    height: 30vw;
+    
 }
 
 .container1 h1 {
     position: absolute;
-    top: 0;
-    left: 3px;
-    color: black;
-    font-size: 40px;
-    text-align: left;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0)
+    font-size: 3vw;
+    
 }
 
+
+
 .container3{
-    
-    position: center;
+    display: inline-block;
+    position: relative;
+    width: 70vw;
+    margin-left: 10vw;
     background: black;
     color: white;
-    border: 1px solid black;
     text-align: center;
     
+}
+.container2{
+    display: inline-block;
+    position: absolute;
+    right: 20vw;
+    top: 20vw;
 }
 
 article{
@@ -52,6 +54,11 @@ article{
 #email1{
     text-decoration: underline black;
     color: rgb(119, 189, 212)
+}
+.nav1{
+    position: absolute;
+    margin-left: 10vw;
+    top: 38vw;
 }
 
 .nav1>a{
@@ -67,4 +74,11 @@ article>p{
 #href1{
     text-decoration: none;
     color: black;
+}
+
+.container4{
+    display: inline-block;
+    width: 55vw;
+    margin-left: 25vw;
+    margin-top: 2vw;
 }
