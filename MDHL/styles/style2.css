@@ -7,7 +7,7 @@
 }
 
 .container1{
-    display: relative;
+    position:  relative;
     margin-left: 10vw;
     width: 70vw;
     font-size: 1vw;
