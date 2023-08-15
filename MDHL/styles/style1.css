@@ -1,53 +1,235 @@
 *{
     margin: 0;
-    padding-left: 5px;
-    box-sizing: border-box;
-    margin-left: 0vw;
+    padding: 2px;
+    /* background-color: black; */
+    margin-left: 0px;
+    background-color: rgb(2, 20, 3);
+    background-position: 1;
+
 }
 
 .container1{
-    border: 2px solid black;
+    display: flex;
+    position:  relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    width: 70vw;
+    font-size: 1vw;
+    background-color: rgb(2, 20, 3);
+    z-index: 1;
+}
+.container1>h1{
+    width: 70vw;
+    height: 12vh;
+    color:  rgb(188, 226, 17);
+    -webkit-text-stroke: 1px rgba(57, 197, 2, 0.76);
+    font-size: 4vw;
+}
+#imagen1{
+    width: 71vw;
+    height: 20vw;
+    order: 3;
+    transition:all .5s ease-in-out;
 }
 
-.container2{
-    border: 2px solid black;
+
+
+#logo{
+    display: flex;
+    position: absolute;
+    width: 10vw;
+    height: 12vh;
+    order: 2;
+    align-self: flex-end;
+    justify-content: flex-start;  
 }
+
+.container2{    
+    width: 110px;
+    height: auto;
+    position: relative;
+    background-color: rgb(188, 226, 17);
+    
+}
+
 
 .container3{
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    text-align: center;
+    margin-left: 10vw;
+    background-color: rgb(188, 226, 17);
+    padding: 5px;
+    
+}
+
+article>h3{
+    background-color: rgb(188, 226, 17);
+}
+.container3>h2{
+
+    background-color:transparent;   
+}
+.container3>h3{
+    background-color: transparent;
 }
 
 .container4{
+    background-color: rgb(188, 226, 17);
+    width: 60vw;
     border: 2px solid black;
+    margin-left: 20vw;
+    margin-top: 1vw;
+}
+#email{
+    background-color: rgb(188, 226, 17);
+}
+#email>p{
+    display: inline;
+    background-color: rgb(188, 226, 17);
+}
+#email1{
+    text-decoration: underline black;
+    color: rgb(119, 189, 212)
+}
+.container4>p{
+    background-color: rgb(188, 226, 17);
+}
+
+.container4>article{
+    background-color: rgb(188, 226, 17);
+}
+.container4>h3{
+    background-color: rgb(188, 226, 17);
+}
+.container4>table{
+    background-color: rgb(188, 226, 17);
+    table-layout: fixed;
+    width: 100%;    
+    border-collapse: collapse;
+    
+}
+table, th, td{
+    background-color: rgb(188, 226, 17);
+}
+.gamelista{
+    background-color: rgb(188, 226, 17);
+}
+article>h4{
+    background-color: transparent;
+}
+article>p{
+    background-color: transparent;
+}
+.gamelista>li{
+    background-color: rgb(188, 226, 17);
+}
+ul{
+    list-style: none;
 }
 
 .container5{
-    display: flex;
+    background-color: rgb(188, 226, 17);
+    width: 60vw;
     border: 2px solid black;
-    flex-direction: row;
+    margin-left: 20vw;
+    margin-top: 20px;
 }
+.container5>h3{
+    background-color: rgb(188, 226, 17);
+}
+.container5>h4{
+    background-color: rgb(188, 226, 17);
+}
+.container5>p{
+    background-color: rgb(188, 226, 17);
+}
+dl, dd, dt{
+    background-color: rgb(188, 226, 17);
+}
+dt>b{
+    background-color: rgb(188, 226, 17);
+}
+#lista1{
+    background-color: rgb(188, 226, 17);
+}
+#lista1>li{
+    text-indent: 20px;
+    background-color: rgb(188, 226, 17);
+}
+#lista2{
+    background-color: rgb(188, 226, 17);
+}
+#lista2>li{
+    text-indent: 20px;
+    background-color: rgb(188, 226, 17);
+}
+
+.container6{
+    width: 60vw;
+    border: 2px solid black;
+    margin-left: 20vw;
+    margin-top: 20px;
+    background-color: rgb(188, 226, 17);
+}
+.container6>h4{
+    background-color: rgb(188, 226, 17);
+}
+.container6>p{
+    background-color: rgb(188, 226, 17);
+}
+
+
+#href1{
+    display: flex;
+    background-color: rgb(2, 20, 3);
+    color: rgb(188, 226, 17);
+    padding: 5px 5px;   
+    text-decoration: none;
+    font-size: 2vw;
+    
+}
+
+.href2{
+    display: flex;
+    position: relative;
+    background-color: rgb(188, 226, 17);
+    border: 1px solid rgb(2, 20, 3);
+    color:  rgb(2, 20, 3);
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+    /* box-shadow: 3px 5px rgba(128, 128, 128, 0.61);;        */
+}
+.href2:hover{
+    /* top: 3px;
+    right: 3px; */
+    transform: translate(-10%, -10%);
+    height: 100%;
+    background: rgb(2, 20, 3);
+    color: rgb(188, 226, 17);
+    transition: all .2s;
+}
+
+article{
+    margin-bottom: 10px;
+}
+article>p{
+    text-indent: 20px;
+}
+
 
 .nav1{
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 12vh;
+    width: 9vw;
 }
 
-dl{
-    list-style-type: decimal;
-  }
-
-dd{
-    text-indent: 2vw;
-}
-
-#lista1{
-    padding-left: 3vw;
-}
-
-#ul2{
-    list-style: circle;
-    padding-left: 3vw;
-}
-
-.gamelista{
-    list-style: none;
-}
