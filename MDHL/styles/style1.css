@@ -27,13 +27,49 @@
     font-size: 4vw;
 }
 #imagen1{
-    width: 71vw;
+    width: 70vw;
     height: 20vw;
     order: 3;
     transition:all .5s ease-in-out;
 }
 
+.slider-frame {
+	width: 70vw;
+    height: 30vw;
+    margin: 0px;
+	overflow: hidden;
+}
 
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 100%;
+	
+	animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 70vw;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -105%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -205%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -305%;}
+	100% {margin-left: -300%;}
+}
 
 #logo{
     display: flex;
