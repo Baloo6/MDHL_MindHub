@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 2px;
-    /* background-color: black; */
     margin-left: 0px;
     background-color: rgb(2, 20, 3);
     background-position: 1;
@@ -100,6 +99,9 @@
     margin-left: 10vw;
     background-color: rgb(188, 226, 17);
     padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
     
 }
 
@@ -117,9 +119,10 @@ article>h3{
 .container4{
     background-color: rgb(188, 226, 17);
     width: 60vw;
-    border: 2px solid black;
+    border: 1px solid black;
     margin-left: 20vw;
     margin-top: 1vw;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
 }
 #email{
     background-color: rgb(188, 226, 17);
@@ -174,6 +177,7 @@ ul{
     border: 2px solid black;
     margin-left: 20vw;
     margin-top: 20px;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
 }
 .container5>h3{
     background-color: rgb(188, 226, 17);
@@ -211,6 +215,7 @@ dt>b{
     margin-left: 20vw;
     margin-top: 20px;
     background-color: rgb(188, 226, 17);
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
 }
 .container6>h4{
     background-color: rgb(188, 226, 17);
@@ -240,7 +245,8 @@ dt>b{
     text-decoration: none;
     font-size: 20px;
     transition: 1s;
-    /* box-shadow: 3px 5px rgba(128, 128, 128, 0.61);;        */
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.61);     
 }
 .href2:hover{
     /* top: 3px;
