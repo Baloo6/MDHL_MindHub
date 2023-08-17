@@ -4,6 +4,7 @@
     margin-left: 0px;
     background-color: rgb(2, 20, 3);
     background-position: 1;
+    font-family: fantasy;
     
 }
 
@@ -131,7 +132,7 @@ article>h3{
     display: inline;
     background-color: rgb(188, 226, 17);
 }
-#email1{
+.email1{
     text-decoration: underline black;
     color: rgb(119, 189, 212)
 }
@@ -292,6 +293,9 @@ article>p{
 #form1>label{
     background-color: rgb(188, 226, 17);
 }
+.form2>label{
+    background-color: rgb(188, 226, 17);
+}
 #form1>input{
     background-color: rgb(188, 226, 17);
 }
@@ -304,11 +308,22 @@ legend>b{
 
 #gender{
     background-color: rgb(188, 226, 17);
+    display: flex;
 }
 #gender>label{
     background-color: rgb(188, 226, 17);
 }
-#form1>span{
+#gender>p{
+    background-color: rgb(188, 226, 17);
+    
+}
+#grade{
+    display: flex;
+}
+#grade>p{
+    background-color: rgb(188, 226, 17);
+}
+#form1>div{
     background-color: rgb(188, 226, 17);
 }
 #full_name>label{
@@ -354,6 +369,19 @@ label>b{
     background-color: rgb(188, 226, 17);
     font-size: 100%;
 }
+.form2>h6{
+    background-color: rgb(188, 226, 17);
+    font-size: 100%;
+}
+#form1>fieldset{
+    background-color: rgb(188, 226, 17);
+}
+.form2{
+    background-color: rgb(188, 226, 17);
+}
+.form2>div{
+    background-color: rgb(188, 226, 17);
+}
 #usize>label{
     background-color: rgb(188, 226, 17);
 }
@@ -388,4 +416,25 @@ label>b{
     font-size: 1vw;
     box-shadow: 2px 2px black; 
     
+}
+
+/* MAPS */
+
+.container7{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    border: 2px solid black;
+    margin-left: 25vw;
+    margin-top: 20px;
+    background-color: rgb(188, 226, 17);
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
+}
+
+.maps{
+    width: 15vw;
+    height: 30vh;
+    margin: 1vw;
 }
