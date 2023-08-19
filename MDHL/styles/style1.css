@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0px;
     background-color: rgb(2, 20, 3);
-    font-family: fantasy;   
+    font-family: fantasy; 
+    box-sizing: border-box;
 }
 body{
     padding: 10px;
@@ -76,6 +77,7 @@ body{
     order: 2;
     align-self: flex-end;
     justify-content: flex-start;  
+    object-fit: contain ;
 }
 
 .container2{    
@@ -85,6 +87,9 @@ body{
     background-color: rgb(188, 226, 17);
     padding: 5px;
     
+}
+#table1{
+    width: 100%;
 }
 
 
@@ -123,7 +128,7 @@ article>h3{
     border: 1px solid black;
     margin-top: 1vw;
     box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
-    padding: 2px;
+    padding: 5px;
     justify-self:flex-start;
     align-self: flex-start;
 }
@@ -159,13 +164,13 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 .nav1{
     display: flex;
     flex-direction: column;
     margin-top: 1%;
-    width: 9vw;
+    width: fit-content;
 }
 #href1{
     display: flex;
@@ -234,6 +239,7 @@ ul{
     border: 2px solid black;
     margin-top: 20px;
     box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
+    padding: 5px;
 }
 .container5>h3{
     background-color: rgb(188, 226, 17);
@@ -272,7 +278,8 @@ dt>b{
     border: 2px solid black;
     margin-top: 20px;
     background-color: rgb(188, 226, 17);
-    box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.61);
+    padding: 5px;
 }
 .container6>h4{
     background-color: rgb(188, 226, 17);
@@ -506,6 +513,9 @@ label>b{
     h1{
         height: 10vh;
     }
+    .nav1>a{
+        margin-top: 5px;
+    }
     #logo{
         display: none;
     }
@@ -576,7 +586,14 @@ label>b{
         width: 25vw;
         align-items: center;
     }
+    .nav1>a{
+        margin-top: 5px;
+    }
+    #href1{
+        /* margin-top: 5px; */
+    }
     .href2{
+        /* margin-top: 5px; */
         width: 100%;
     }
     h1{
