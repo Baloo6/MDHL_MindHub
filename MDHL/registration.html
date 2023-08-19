@@ -21,28 +21,23 @@
                         <li><img src="./assets/hockey4.jpg" alt=""></li>
                     </ul>
                 </div>            
-                <!-- <img id="imagen1" src="./assets/hockey1.jpg" alt="Imagen1" width="100" height="100">  -->
                 <img src="./assets/LogoMD1.png" id="logo" alt="Logo" width="100" height="100">                           
             </div>
+            <h2 class="container3">Upcoming Events</h2>
            
-            <nav class="nav1">                              
-                <a href="index.html" class="href2">Home</a>
-                    
-                <a href="about.html" class="href2">About MDHL</a>
-
-                <a href="game_info.html" class="href2">Game Info</a>
-                
-                <a href="rules.html" class="href2">Rules</a>
-
-                <a href="#" id="href1"><b>Registration</b></a>
-
-                <a href="contact.html" class="href2">Contact</a>
-            </nav> 
+           
         </header>
-        <!-- Upcoming Events -->
         <main>
-            <section>
-                <h2 class="container3">Upcoming Events</h2>
+            <nav class="nav1">                              
+                <a href="index.html" class="href2">Home</a>        
+                <a href="about.html" class="href2">About MDHL</a>
+                <a href="game_info.html" class="href2">Game Info</a>   
+                <a href="rules.html" class="href2">Rules</a>
+                <a href="#" id="href1"><b>Registration</b></a>
+                <a href="contact.html" class="href2">Contact</a>
+                <img src="./assets/LogoMD1.png" id="logonav" alt="Logo" >  
+            </nav> 
+            <section class="mainsection">
                 <div class="container4">
                    <form id="form1" action="show_data.html" method="get">
                         <fieldset class="form2">
@@ -53,16 +48,20 @@
                             <label for="apellido">Last name:</label>
                             <input type="text" name="apellido" id="apellido">
                             </div>
+                            <div id="st_add">
                             <label for="address">Street Address:</label>
                             <input type="text" name="address" id="address">
+                            </div>
                             <div id="city_zip">
                             <label for="city">City:</label>
                             <input type="text" name="city" id="city">
                             <label for="zipcode">Zip Code:</label>
                             <input type="text" name="zipcode" id="zipcode">
                             </div>
-                            <label for="birthday">Birth Date(mm/dd/yyyy)</label>
-                            <input type="text" name="birthday" id="birthday">
+                            <div id="cumpleaños">
+                                <label for="birthday">Birth Date(mm/dd/yyyy)</label>
+                                <input type="text" name="birthday" id="birthday">
+                            </div>
                             <div id="gender">
                             <p>Gender:</p>
                             <label for="female">Female</label>
@@ -72,18 +71,30 @@
                             </div>
                             <div id="grade">
                             <p>Grade:</p>
-                            <label for="preschool">Pre-School</label>
-                            <input type="radio" name="grade" id="preschool" value="Pre-School">
-                            <label for="1st">1st</label>
-                            <input type="radio" name="grade" id="1st" value="1st">
-                            <label for="1st">2st</label>
-                            <input type="radio" name="grade" id="2st" value="2st">
-                            <label for="1st">3st</label>
-                            <input type="radio" name="grade" id="3st" value="3st">
-                            <label for="1st">4st</label>
-                            <input type="radio" name="grade" id="4st" value="4st">
-                            <label for="1st">5st</label>
-                            <input type="radio" name="grade" id="5st" value="5st">
+                            <label for="preschool">Pre-School
+                                <input type="radio" name="grade" id="preschool" value="Pre-School">
+                            </label>
+                            
+                            <label for="1st">1st
+                                <input type="radio" name="grade" id="1st" value="1st">
+                            </label>
+                            
+                            <label for="2st">2st
+                                <input type="radio" name="grade" id="2st" value="2st">
+                            </label>
+                            
+                            <label for="3st">3st
+                                <input type="radio" name="grade" id="3st" value="3st">
+                            </label>
+                            
+                            <label for="4st">4st
+                                <input type="radio" name="grade" id="4st" value="4st">
+                            </label>
+                            
+                            <label for="5st">5st
+                                <input type="radio" name="grade" id="5st" value="5st">
+                            </label>
+                            
                             </div>
                         </fieldset>
                         <fieldset class="form2">

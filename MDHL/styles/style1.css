@@ -1,10 +1,14 @@
 *{
     margin: 0;
-    padding: 2px;
-    margin-left: 0px;
+    padding: 0px;
     background-color: rgb(2, 20, 3);
-    font-family: fantasy;
-    
+    font-family: fantasy;   
+}
+body{
+    padding: 10px;
+}
+#logonav{
+    display: none;
 }
 
 .container1{
@@ -12,28 +16,22 @@
     position:  relative;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 15vw;
-    width: 70vw;
+    width: 99%;
     font-size: 1vw;
     background-color: rgb(2, 20, 3);
-    z-index: 1;
+    padding: 5px;
 }
 .container1>h1{
-    width: 70vw;
+    width: 100%;
     height: 12vh;
     color:  rgb(188, 226, 17);
     -webkit-text-stroke: 1px rgba(57, 197, 2, 0.76);
     font-size: 4vw;
 }
-#imagen1{
-    width: 70vw;
-    height: 20vw;
-    order: 3;
-    transition:all .5s ease-in-out;
-}
+
 
 .slider-frame {
-	width: 70vw;
+	width: 100%;
     height: 30vw;
     margin: 0px;
 	overflow: hidden;
@@ -53,28 +51,28 @@
 }
 
 .slider-frame img {
-	width: 70vw;
+	width: 100vw;
 }
 
 @keyframes slide {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}
 	
-	25% {margin-left: -105%;}
+	25% {margin-left: -100%;}
 	45% {margin-left: -100%;}
 	
-	50% {margin-left: -205%;}
+	50% {margin-left: -200%;}
 	70% {margin-left: -200%;}
 	
-	75% {margin-left: -305%;}
+	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
 
 #logo{
     display: flex;
     position: absolute;
-    width: 10vw;
-    height: 12vh;
+    width: 10%;
+    height: 15%;
     order: 2;
     align-self: flex-end;
     justify-content: flex-start;  
@@ -85,6 +83,7 @@
     height: auto;
     position: relative;
     background-color: rgb(188, 226, 17);
+    padding: 5px;
     
 }
 
@@ -94,9 +93,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70vw;
+    width: 99%;
     text-align: center;
-    margin-left: 15vw;
     background-color: rgb(188, 226, 17);
     padding: 5px;
     border-radius: 5px;
@@ -117,12 +115,17 @@ article>h3{
 }
 
 .container4{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(188, 226, 17);
-    width: 60vw;
+    width: 100%;
+    height: auto;
     border: 1px solid black;
-    margin-left: 25vw;
     margin-top: 1vw;
     box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
+    padding: 2px;
+    justify-self:flex-start;
+    align-self: flex-start;
 }
 #email{
     background-color: rgb(188, 226, 17);
@@ -144,6 +147,57 @@ article>h3{
 }
 .container4>h3{
     background-color: rgb(188, 226, 17);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+}
+.mainsection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5vw;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    width: 9vw;
+}
+#href1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(2, 20, 3);
+    color: rgb(188, 226, 17);
+    padding: 5px 5px;   
+    text-decoration: none;
+    font-size: 100%;
+    
+}
+
+.href2{
+    display: flex;
+    position: relative;
+    width: 10vw;
+    background-color: rgb(188, 226, 17);
+    border: 1px solid rgb(2, 20, 3);
+    color:  rgb(2, 20, 3);
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 100%;
+    transition: 1s;
+    border-radius: 10px;
+        
+}
+.href2:hover{
+    transform: translate(10%, -10%);
+    height: 2vw;
+    background: rgb(2, 20, 3);
+    color: rgb(188, 226, 17);
+    transition: all .2s;
 }
 
 /* TABLE */
@@ -176,9 +230,8 @@ ul{
 
 .container5{
     background-color: rgb(188, 226, 17);
-    width: 60vw;
+    width: 100%;
     border: 2px solid black;
-    margin-left: 25vw;
     margin-top: 20px;
     box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
 }
@@ -215,9 +268,8 @@ dt>b{
 }
 
 .container6{
-    width: 60vw;
+    width: 100%;
     border: 2px solid black;
-    margin-left: 25vw;
     margin-top: 20px;
     background-color: rgb(188, 226, 17);
     box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
@@ -229,41 +281,6 @@ dt>b{
     background-color: rgb(188, 226, 17);
 }
 
-
-#href1{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(2, 20, 3);
-    color: rgb(188, 226, 17);
-    padding: 5px 5px;   
-    text-decoration: none;
-    font-size: 3vh;
-    
-}
-
-.href2{
-    display: flex;
-    position: relative;
-    background-color: rgb(188, 226, 17);
-    border: 1px solid rgb(2, 20, 3);
-    color:  rgb(2, 20, 3);
-    padding: 5px 5px;
-    text-decoration: none;
-    font-size: 20px;
-    transition: 1s;
-    border-radius: 10px;
-        
-}
-.href2:hover{
-    /* top: 3px;
-    right: 3px; */
-    transform: translate(-10%, -10%);
-    height: 100%;
-    background: rgb(2, 20, 3);
-    color: rgb(188, 226, 17);
-    transition: all .2s;
-}
-
 article{
     margin-bottom: 10px;
 }
@@ -272,15 +289,6 @@ article>p{
 }
 
 
-.nav1{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-left: 15vw;
-    margin-top: 12vh;
-    width: 9vw;
-}
-
 /* FORMS */
 /* form1 */
 #form1{
@@ -288,17 +296,25 @@ article>p{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 99%;
+    padding: 2px;
 }
 #form1>label{
     background-color: rgb(188, 226, 17);
+    width: 99%;
 }
 .form2>label{
     background-color: rgb(188, 226, 17);
+    width: 99%;
 }
+
 #form1>input{
     background-color: rgb(188, 226, 17);
 }
 #form1>legend{
+    background-color: rgb(188, 226, 17);
+}
+.form2>legend{
     background-color: rgb(188, 226, 17);
 }
 legend>b{
@@ -316,8 +332,21 @@ legend>b{
     background-color: rgb(188, 226, 17);
     
 }
+#st_add{
+    background-color: rgb(188, 226, 17);
+}
+#st_add>label{
+    background-color: rgb(188, 226, 17);
+}
+#cumpleaños{
+    background-color: rgb(188, 226, 17);
+}
+#cumpleaños>label{
+    background-color: rgb(188, 226, 17);
+}
 #grade{
     display: flex;
+    
 }
 #grade>p{
     background-color: rgb(188, 226, 17);
@@ -336,6 +365,10 @@ legend>b{
 }
 #grade>label{
     background-color: rgb(188, 226, 17);
+    pad: 5px;
+}
+#grade>input{
+    padding: 10px
 }
 #city_zip>label{
     background-color: rgb(188, 226, 17);
@@ -377,6 +410,7 @@ label>b{
 }
 .form2{
     background-color: rgb(188, 226, 17);
+    width: 100%;
 }
 .form2>div{
     background-color: rgb(188, 226, 17);
@@ -386,6 +420,7 @@ label>b{
 }
 #usize>input{
     background-color: rgb(188, 226, 17);
+    width: 99%;
 }
 #position>label{
     background-color: rgb(188, 226, 17);
@@ -407,14 +442,15 @@ label>b{
 }
 #submit{
     display: flex;
+    align-self: flex-end;
     width: 5vw;
+    height: 2vw;
     border: 2px solid rgb(2, 20, 3);
     margin-left: 54vw;
     text-align: center;
     justify-content: center;
     font-size: 1vw;
     box-shadow: 2px 2px black; 
-    
 }
 
 /* MAPS */
@@ -424,9 +460,8 @@ label>b{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    width: 60vw;
+    width: 100%;
     border: 2px solid black;
-    margin-left: 25vw;
     margin-top: 20px;
     background-color: rgb(188, 226, 17);
     box-shadow: 3px 3px rgba(128, 128, 128, 0.61); 
@@ -437,3 +472,175 @@ label>b{
     height: 30vh;
     margin: 1vw;
 }
+.divmap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(188, 226, 17);
+    font-size: 2vw;
+    text-decoration: overline;
+}
+.divmap>h5{
+    background-color: rgb(188, 226, 17);
+}
+/* BREAKPOINT 2 */
+@media only screen and (max-width:768px) {
+    .maps{
+        width: 25vw;
+        height: 25vw;
+        margin: 10px;
+    }
+    .nav1{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        width: 25vw;
+        align-items: center;
+        text-align: center;
+    }
+    .href2{
+        width: 100%;
+        text-align: center;
+    }
+    h1{
+        height: 10vh;
+    }
+    #logo{
+        display: none;
+    }
+    .container1>h1{
+        text-align: center;
+        height: 8vh;
+        font-size: 7vw;
+    }
+    #submit{
+        display: flex;
+        align-self: center;
+        width: 10vw;
+        height: 5vw;
+        border: 2px solid rgb(2, 20, 3);
+        margin-left: 54vw;
+        text-align: center;
+        justify-content: center;
+        font-size: 3vw;
+        box-shadow: 2px 2px black; 
+    }
+    #grade{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #usize{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #city_zip{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #full_name{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #st_add{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #logonav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15vw;
+    }
+    .slider-frame {
+        width: 100%;
+        height: 30vh;
+        margin: 0px;
+        overflow: hidden;
+    }
+}
+
+/* BREAKPOINT 1 */
+@media only screen and (max-width:425px) {
+    
+
+    .nav1{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        width: 25vw;
+        align-items: center;
+    }
+    .href2{
+        width: 100%;
+    }
+    h1{
+        height: 10vh;
+    }
+    #logo{
+        display: none;
+    }
+    #logonav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
+    }
+    .container1>h1{
+        text-align: center;
+        height: 8vh;
+        font-size: 8vw;
+    }
+    #submit{
+        display: flex;
+        align-self: center;
+        width: 10vw;
+        height: 5vw;
+        border: 2px solid rgb(2, 20, 3);
+        margin-left: 54vw;
+        text-align: center;
+        justify-content: center;
+        font-size: 3vw;
+        box-shadow: 2px 2px black; 
+    }
+    #grade{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #usize{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #city_zip{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #full_name{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #st_add{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .maps{
+        width: 25vw;
+        height: 25vw;
+        margin: 10px;
+    }
+    .divmap{
+        font-size: 4vw;
+    }
+}
+
+
