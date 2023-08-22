@@ -17,7 +17,7 @@ body{
     position:  relative;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 99%;
+    width: 100%;
     font-size: 1vw;
     background-color: rgb(2, 20, 3);
     padding: 5px;
@@ -72,7 +72,6 @@ body{
 #logo{
     display: flex;
     position: absolute;
-    width: 10%;
     height: 15%;
     order: 2;
     align-self: flex-end;
@@ -98,7 +97,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 99%;
+    width: 100%;
     text-align: center;
     background-color: rgb(188, 226, 17);
     padding: 5px;
@@ -156,7 +155,7 @@ article>h3{
 main{
     display: flex;
     flex-direction: row;
-    padding: 5px;
+    padding: 0px;
     flex-wrap: nowrap;
     justify-content:flex-start;
 }
@@ -171,6 +170,7 @@ main{
     flex-direction: column;
     margin-top: 1%;
     width: fit-content;
+    padding: 5px;
 }
 #href1{
     display: flex;
@@ -372,7 +372,7 @@ legend>b{
 }
 #grade>label{
     background-color: rgb(188, 226, 17);
-    pad: 5px;
+    padding: 5px;
 }
 #grade>input{
     padding: 10px
@@ -418,6 +418,8 @@ label>b{
 .form2{
     background-color: rgb(188, 226, 17);
     width: 100%;
+    margin-bottom: 1vw;
+    padding: 5px;
 }
 .form2>div{
     background-color: rgb(188, 226, 17);
@@ -450,13 +452,13 @@ label>b{
 #submit{
     display: flex;
     align-self: flex-end;
-    width: 5vw;
-    height: 2vw;
+    width: 7vw;
+    height: 3vw;
     border: 2px solid rgb(2, 20, 3);
     margin-left: 54vw;
     text-align: center;
     justify-content: center;
-    font-size: 1vw;
+    font-size: 1em;
     box-shadow: 2px 2px black; 
 }
 
@@ -589,9 +591,7 @@ label>b{
     .nav1>a{
         margin-top: 5px;
     }
-    #href1{
-        /* margin-top: 5px; */
-    }
+    
     .href2{
         /* margin-top: 5px; */
         width: 100%;
